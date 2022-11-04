@@ -12,6 +12,34 @@
         <h1 class="page-ttl">お問い合わせ一覧</h1>
     </div>
     <div class="list-contents">
+        <div class="search_ar submit-area">
+            <form>
+                <div class="search-cont">
+                    <label class="label-ttl">ステータス</label>
+                    <select class="form-input">
+                        <option>選択してください</option>
+                        <option>未対応</option>
+                        <option>対応中</option>
+                        <option>対応済</option>
+                    </select>
+                </div>
+                <div class="search-cont">
+                    <label class="label-ttl">対応者</label>
+                    <select class="form-input">
+                        <option>選択してください</option>
+                        <option>会員一覧を表示してください</option>
+                    </select>
+                </div>
+                <div class="search-cont">
+                    <label class="label-ttl">会社名</label>
+                    <input class="form-input">
+                </div>
+
+                <div class="search-cont search-btn">
+                    <button class="form-input" type="submit">検索</button>
+                </div>
+            </form>
+        </div>
         <div class="table_ar">
             <table class="list-table">
                 <thead>

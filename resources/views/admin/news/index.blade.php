@@ -13,6 +13,27 @@
         <p><a class="new-btn" href=""><i class="fas fa-plus-circle mg-r_5"></i>新規作成</a></p>
     </div>
     <div class="list-contents">
+        <div class="search_ar submit-area">
+            <form>
+                <div class="search-cont">
+                    <label class="label-ttl">ステータス</label>
+                    <select class="form-input">
+                        <option>選択してください</option>
+                        <option>未対応</option>
+                        <option>対応中</option>
+                        <option>対応済</option>
+                    </select>
+                </div>
+                <div class="search-cont">
+                    <label class="label-ttl">タイトル</label>
+                    <input class="form-input">
+                </div>
+
+                <div class="search-cont search-btn">
+                    <button class="form-input" type="submit">検索</button>
+                </div>
+            </form>
+        </div>
         <div class="table_ar">
             <table class="list-table">
                 <thead>
